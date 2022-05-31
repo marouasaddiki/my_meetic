@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(120deg, pink, #515a8f);
+  color: rgb(141, 88, 146);
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+}
+
+#user_profil {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 20%;
+  max-width: 300px;
+  border: 1px black solid;
+  border-radius: 20px;
+  margin-right: 2%;
+}
+
+#recherche {
+  height: 80%;
+  width: 80%;
+  border: 1px black solid;
+  border-radius: 20px;
+}
+
+#deconnexion {
+  max-width: 100px;
+}

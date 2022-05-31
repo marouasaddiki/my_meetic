@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(120deg, pink, #515a8f);
+  color: rgb(141, 88, 146);
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+  margin-bottom: 10px;
+  line-height: 2.4em;
+  color: #fff;
+}
+/* .ctrlform
+{
+    display: flex;
+    flex-direction: column;
+}  */
+
+.logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 7px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+
+  align-items: center;
+}
+
+/* .formulaire
+{
+    
+    border: 1px solid black;
+    margin: 5px;
+    padding-top: auto;
+    padding-right: auto;
+} */
+
+.valider {
+  display: flex;
+  justify-content: center;
+}
